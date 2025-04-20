@@ -6,7 +6,7 @@ app = Flask(__name__)
 def voice():
     twiml = """<?xml version="1.0" encoding="UTF-8"?>
     <Response>
-        <Say voice="Polly.Joanna">
+        <Say voice="women">
             Hello. This is an urgent alert from Zeny.
             New patient data has been sent to you via WhatsApp and email.
             Please check your messages as soon as possible.
